@@ -1,0 +1,632 @@
+/*Fonts*/
+@font-face {
+    font-family: 'MavenProRegular';
+    src: url('../fonts/maven_pro_regular-webfont.eot');
+    src: url('../fonts/maven_pro_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/maven_pro_regular-webfont.woff') format('woff'),
+         url('../fonts/maven_pro_regular-webfont.ttf') format('truetype'),
+         url('../fonts/maven_pro_regular-webfont.svg#MavenProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'MavenProBold';
+    src: url('../fonts/maven_pro_bold-webfont.eot');
+    src: url('../fonts/maven_pro_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/maven_pro_bold-webfont.woff') format('woff'),
+         url('../fonts/maven_pro_bold-webfont.ttf') format('truetype'),
+         url('../fonts/maven_pro_bold-webfont.svg#MavenProBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    background:#fff;
+}
+header{
+    background:url("../images/fondoHeader.png");
+    background:background-repeat;
+    width:100%;
+    height:60px;
+    border-style:none;
+    border-color:Yellow;
+}
+#infoHeader{
+    width:100%;
+    height:30px;
+    margin-top:-40px;
+    border-style:none;
+}
+.pHeader{
+    color:#868686;
+    margin-top:4px;
+    float:right;
+    margin-right:30px;
+     font-family: 'MavenProBold';
+}
+#maincontainer{
+	width:960px;
+	height:auto;
+	border-style:none;
+	background-repeat:repeat;
+	padding-top:00px;
+	margin-top:0px;
+    
+	padding-bottom:30px;
+	clear:both;
+	float:left;
+    
+}
+#container{
+	width:960px;
+    border-style:none;
+	margin:auto;
+    position:static;
+}
+#header1{
+
+	width:950px;
+	height:80px;
+	margin-top:10px;
+	margin-left:0.5%;
+    border-style:none;
+    border-color:Blue;
+    border-bottom:solid 2px #868686;
+}
+.logo{
+	width:316px; /*Obed*/
+	height:54px;
+	min-width:316px;
+	max-width:316px;
+	margin-left:4.5%;
+    margin-top:10px;
+	z-index:12;
+	float:left;
+	border-style:none;
+	}
+.pMenu{
+	margin-top:-4px;
+	text-align:right;
+    border-right:solid 1px;
+    padding-right:5px;
+    margin-left:2px;
+}
+.pMenu1{
+	margin-top:-4px;
+	text-align:center;
+    border-right:none;
+}
+#menu
+{	
+	width:33%;
+	margin-top:9px;
+	margin-left:8%;
+	float:right;
+	height:20px;
+	display:block;
+    border-style:none;
+    
+}
+
+#menu li{
+	height:20px;
+	display:block;
+	width:29.5%;
+    
+	display:inline;
+	list-style:none;
+	float:left;
+    border-style:none;
+    padding-left:1%;
+    
+	
+	font-size:1.0em;
+	font-family: 'MavenProBold';
+	color:#868686;
+}
+
+#menu li a{	
+			color:#868686;
+			font-family:.9em;
+			text-decoration:none;
+			border:none;
+			display:block;
+}
+
+#menu li a:hover
+{
+	display:block;
+	width:100%;	
+	float:left;
+    color:#0088B1;
+    cursor:pointer;
+}
+
+
+#imgPrincipal{
+    width:98.5%;
+	height:auto;
+	margin-top:10px;
+	margin-left:0.5%;
+    border-style:none;
+    border-color:Blue;
+  
+}
+.imgPrinc{
+    width:100%;
+    height:409px;
+    
+}
+#middleCont{
+    width:98.5%;
+	height:auto;
+    float:left;
+    margin-bottom:30px;
+    padding-bottom:20px;
+	margin-top:10px;
+	margin-left:0.5%;
+    border-style:none;
+    border-color:yellow;
+    border-bottom:solid 2px #868686;
+    
+}
+#middle1{
+    width:30%;
+    height:auto;
+    border-style:none;
+    float:left;
+}
+#middle2{
+    width:30%;
+    height:auto;
+    border-style:none;
+    float:left;
+    margin-left:4%;
+}
+#middle3{
+    width:30%;
+    height:auto;
+    border-style:none;
+    float:left;
+    margin-left:4%;
+}
+.imgRapido{
+    float:left;
+    margin-left:10px;
+}
+h2, h1{
+     color:#868686;
+    font-family: 'MavenProRegular';
+    letter-spacing:-3px;
+    font-weight:bold;
+}
+.subtitleMid{
+    float:left;
+    margin-left:20px;
+    margin-top:-5px;
+    text-align:left;
+    color:#000;
+}
+.blue{
+    color:#0088B1;
+}
+#textoM{
+    float:left;
+    width:98%;
+    height:auto;
+    border-style:none;
+}
+.mid{
+    float:left;
+    color:#868686;
+    font-family:Arial;
+    font-size:.9em;
+}
+#downCont{
+    width:98.5%;
+	height:auto;
+	margin-top:10px;
+	margin-left:0.5%;
+    border-style:none;
+    border-color:yellow;
+    float:left;
+}
+#down1{
+    width:30%;
+    height:auto;
+    border-style:none;
+    float:left;
+}
+#down2{
+    width:30%;
+    height:auto;
+    border-style:none;
+    float:left;
+    margin-left:4%;
+}
+#down3{
+    width:30%;
+    height:auto;
+    border-style:none;
+    float:left;
+    margin-left:4%;
+}
+.subtitleDown{
+    float:left;
+    text-align:left;
+    color:#000;
+}
+.lineDown{
+    width:99%;
+    height:3px;
+    color:#868686;
+    background:#868686;
+    float:left;
+    margin-top:-13px;
+}
+#textoD{
+    float:left;
+    width:98%;
+    height:auto;
+    border-style:none;
+}
+#textoDGris{
+    float:left;
+    width:98%;
+    height:auto;
+    border-style:none;
+}
+.pBlue{
+    color:#0088B1;
+    font-family:Arial;
+    font-size:1.0em;
+    float:left;
+}
+.pDown{
+    font-family:Arial;
+    font-size:.9em;
+    float:left;
+    color:#868686;
+}
+#footer{
+	width:100%;
+	min-height:75px;
+    height:auto;
+	background:url("../images/fondoFooter.png");
+    background-repeat:repeat;
+	margin-top:2px;
+	clear:both;
+	float:left;
+    text-align:center;
+}
+#footer1
+{
+	width:99.7%;
+	height:30%;
+	float:left;
+	text-align:left;
+	
+	border:none;
+     color:#9C9B9B;
+    font-family: 'MavenProRegular';
+	font-size:1.0em;
+	
+    margin-left:20px;
+}
+.footter_txt
+{
+	margin-left:1%;
+	margin-right:1%;
+    margin-top:3%;
+    color:#fff;
+    color:#868686;
+    font-family: 'MavenProRegular';
+    font-size:.9em;
+}
+/*Empresa*/
+#topContent{
+    width:98.5%;
+	height:310px;
+	margin-top:40px;
+	margin-left:0.5%;
+    border-style:none;
+    border-color:Blue;
+    padding-top:10px;
+    border-top:solid 2px #868686;
+    border-bottom:solid 2px #868686;
+}
+#topCont{
+    width:98.5%;
+	height:300px;
+	margin-top:10px;
+	margin-left:0.5%;
+    border-style:none;
+    border-color:yellow;
+    
+}
+#top1{
+    width:30%;
+    height:300px;
+    border-style:none;
+    float:left;
+}
+#top2{
+    width:33%;
+    height:300px;
+    border-style:none;
+    float:left;
+    margin-left:4%;
+}
+#top3{
+    width:27%;
+    height:300px;
+    border-style:none;
+    float:left;
+    margin-left:4%;
+}
+.imgTop{
+    float:left;
+    margin-left:10px;
+}
+#imgNuestraEmpresa{
+    width:98%;
+    height:200px;
+    float:left;
+    border-style:none;
+}
+#textoNuestraEmpresa{
+    width:99%;
+    height:auto;
+    float:left;
+    border-style:none;
+    border-color:Blue;
+    margin-top:60px;
+}
+.subtitleMidServicios{
+    float:left;
+    margin-left:20px;
+    margin-top:11px;
+    text-align:left;
+    color:#000;
+}
+#downContEmpresa{
+    width:98.5%;
+	height:300px;
+	margin-top:10px;
+	margin-left:0.5%;
+    border-style:none;
+    border-color:yellow;
+    
+}
+#downE1{
+    width:30%;
+    height:auto;
+    border-style:none;
+    float:left;
+}
+#downE2{
+    width:30%;
+    height:auto;
+    border-style:none;
+    float:left;
+    margin-left:4%;
+}
+#downE3{
+    width:30%;
+    height:auto;
+    border-style:none;
+    float:left;
+    margin-left:4%;
+}
+.subtitleDownE{
+    float:left;
+    text-align:left;
+    color:#000;
+}
+.lineDownE{
+    width:99%;
+    height:3px;
+    color:#868686;
+    background:#868686;
+    float:left;
+    margin-top:-13px;
+}
+#imgMedio{
+    float:left;
+    width:98%;
+    height:auto;
+    border-style:none;
+    padding:10px 0px 40px 10px;
+}
+.imgMundo{  
+    width:99px;
+    height:97px;
+    margin-left:70px;
+    
+}
+.imgInternet{
+    width:259px;
+    height:96px;
+    margin-left:0px;
+   
+}
+.imgAlcance{
+    width:188px;
+    height:133px;
+    margin-left:10px;
+    padding:0px 0px -25px 10px;
+    margin-bottom:-40px;
+}
+
+/*contacto*/
+#princContacto{
+    width:98.5%;
+    heigth:auto;
+    margin-left:0.5%;
+    border-style:none;
+    border-color:Blue;
+    margin-top:30px;
+    border-top:solid 2px #868686;
+    padding-top:20px;
+}
+#llamanos{
+    width:30%;
+    height:auto;
+    border-style:none;
+    float:left;
+    margin-left:50px;
+}
+.subtitleMidContacto{
+    float:left;
+    margin-left:20px;
+    margin-top:5px;
+    text-align:left;
+    color:#0088B1;
+   
+}
+.subtitleMidContacto2{
+    float:left;
+    margin-left:20px;
+    margin-top:5px;
+    text-align:left;
+    color:#000;
+   
+}
+#imgLlamanos{
+    width:98%;
+    height:200px;
+    float:left;
+    border-style:none;
+}
+#textoContacto{
+     width:111%;
+    height:auto;
+    margin-top:10px;
+    float:left;
+    border-style:none;
+}
+.pLlamanos{
+    font-family:Arial;
+    font-size:.9em;
+    float:left;
+    color:#868686;
+    text-align:left;
+}
+#linea{
+     width:.1%;
+    height:550px;
+    margin-left:25px;
+    float:left;
+    border-style:none;
+    background:#868686;
+}
+#ponteContacto{
+    width:550px;
+    height:450px;
+    border-style:none;
+    border-color:Blue;
+    float:right;
+    margin-left:20px;
+}
+.imgPonteContacto{
+    float:left;
+    margin-left:40px;
+}
+#datosContacto{
+	width:80%;
+	height:auto;
+	margin-left:75px;
+	float:left;	
+	border-style:none;
+	border-color:#03F;
+	border-width:thin;
+	margin-top:30px;
+    
+}
+.nameContact{
+	width:100%;
+	height:20px;
+	margin-top:18px;
+	float:left;
+	border-style:solid;
+	border-radius:1px;
+	border-color:#868686;
+	border-width:thin;
+    opacity:0.7;
+}
+.emailContact{
+	width:100%;
+	height:20px;
+	margin-top:15px;
+	float:left;	
+	border-style:solid;
+	border-radius:1px;
+	border-color:#868686;
+	border-width:thin;	
+    opacity:0.7;
+}
+.telContact{
+	width:100%;
+	height:20px;
+	margin-top:15px;
+	float:left;	
+	border-style:solid;
+	border-radius:1px;
+	border-color:#868686;
+	border-width:thin;	
+    opacity:0.7;
+}
+.mensajeContact{
+	width:100%;
+	height:100px;
+	margin-top:15px;
+	float:left;	
+	border-style:solid;
+	border-radius:1px;
+	border-color:#868686;
+	border-width:thin;	
+    opacity:0.7;
+    font:"Arial";
+    font-family:"Arial";
+}
+.contactTitle{
+	font:"Arial";
+    font-family:"Arial";
+	color:#333;
+	font-size:14px;	
+    margin-top:10px;
+    opacity:0.7;
+}
+.sendButton{
+	    display:block;
+		border-radius:5px;
+		border-color:transparent;
+		background-color:#000011;
+		font-family:MavenProBold;
+		color:#fff;
+		font-size:14px;	
+		font-weight:bolder;
+		clear:both;
+		float:right;
+        margin-top:10px;
+		margin-right:5px;
+        cursor:pointer;
+		/*box-shadow:-2px 2px #333;
+		/*-webkit-box-shadow:-2px 2px #333;
+		-moz-box-shadow: -2px 2px #333;*/
+				}
+.imgContacto{
+    width:290px;
+}
+.imgNuestraEmpresa{
+    width:290px;
+}
+input[type=search] {
+	-webkit-appearance: none;
+}
+
+input[type="search"]::-webkit-search-decoration, 
+input[type="search"]::-webkit-search-cancel-button {
+	display: none;
+}
